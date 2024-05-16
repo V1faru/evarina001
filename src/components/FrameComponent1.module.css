@@ -1,0 +1,59 @@
+.appDesign {
+  position: relative;
+  font-weight: 600;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frameChild {
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameItem {
+  background-color: var(--color-crimson);
+  width: 610px;
+  height: 20px;
+  z-index: 1;
+}
+.frameInner {
+  position: absolute;
+  top: -3px;
+  right: 75px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29);
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  border: 0 solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 24px;
+  height: 25px;
+  z-index: 2;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.appDesignParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--b1-size);
+  color: var(--color-black);
+  font-family: var(--b3);
+}
+@media screen and (max-width: 450px) {
+  .appDesign {
+    font-size: var(--font-size-lgi);
+  }
+}

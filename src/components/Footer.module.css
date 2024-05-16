@@ -1,0 +1,155 @@
+.r {
+  font-weight: 800;
+}
+.amisha {
+  color: var(--color-white);
+}
+.ramisha {
+  margin: 0;
+  height: 28px;
+  width: 178px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  font-family: inherit;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.aboutUs,
+.home,
+.services {
+  height: 17px;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 76px;
+  cursor: pointer;
+}
+.aboutUs,
+.services {
+  min-width: 113px;
+}
+.services {
+  min-width: 103px;
+}
+.projects {
+  min-width: 101px;
+}
+.contact,
+.projects,
+.testimonials {
+  height: 17px;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+}
+.contact {
+  min-width: 99px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl-6);
+  text-align: center;
+  font-size: var(--b1-size);
+  color: var(--color-white);
+}
+.facebookNegative,
+.instagramNegative,
+.linkedinNegative,
+.twitterNegative {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 48px;
+}
+.icons,
+.social {
+  flex-direction: row;
+}
+.icons {
+  width: 432px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.social {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.container,
+.footer,
+.social {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.container {
+  width: 816px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-50xl-5);
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-11xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-crimson);
+  font-family: var(--b3);
+}
+@media screen and (max-width: 825px) {
+  .ramisha {
+    font-size: var(--font-size-13xl);
+  }
+  .navigation {
+    flex-wrap: wrap;
+  }
+  .container {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ramisha {
+    font-size: var(--b1-size);
+  }
+  .aboutUs,
+  .contact,
+  .home,
+  .projects,
+  .services,
+  .testimonials {
+    font-size: var(--font-size-lgi);
+  }
+  .navigation {
+    gap: var(--gap-mid);
+  }
+  .icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container {
+    gap: var(--gap-mid);
+  }
+}

@@ -1,0 +1,707 @@
+.aboutMeChild {
+  height: 876.2px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  min-width: 519px;
+}
+.aboutMe1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.loremIpsumDolor {
+  margin: 0;
+}
+.loremIpsumDolorContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--b1-size);
+  letter-spacing: 0.04em;
+  line-height: 137%;
+}
+.aboutMeGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  text-align: justify;
+  font-size: var(--h1-size);
+}
+.uxDesign {
+  position: relative;
+  font-weight: 600;
+}
+.frameChild {
+  height: 20px;
+  width: 700px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  background-color: var(--color-crimson);
+  width: 643px;
+  height: 20px;
+  z-index: 1;
+}
+.frameInner {
+  top: 0;
+  left: 634px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29);
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  border: 0 solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+}
+.rectangleGroup {
+  height: 25px;
+  width: 659px;
+  position: relative;
+  max-width: 100%;
+}
+.rectangleParent,
+.uxDesignParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+}
+.uxDesignParent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+}
+.appDesign {
+  position: relative;
+  font-weight: 600;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.card,
+.cardRow,
+.rectangleDiv {
+  position: absolute;
+}
+.cardRow {
+  top: 0;
+  left: 0;
+  background-color: var(--color-crimson);
+  width: 610px;
+  height: 20px;
+  z-index: 1;
+}
+.card {
+  top: -3px;
+  right: 75px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29);
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  border: 0 solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 24px;
+  height: 25px;
+  z-index: 2;
+}
+.rectangleContainer {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.appDesignParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  gap: var(--gap-base);
+}
+.graphicDesign {
+  position: relative;
+  font-weight: 600;
+}
+.frameChild1,
+.frameChild2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frameChild1 {
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameChild2 {
+  background-color: var(--color-crimson);
+  width: 657px;
+  height: 20px;
+  z-index: 1;
+}
+.ellipseDiv {
+  position: absolute;
+  top: -3px;
+  right: 27px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29);
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  border: 0 solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 26px;
+  height: 25px;
+  z-index: 2;
+}
+.frameDiv {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.graphicDesignParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-base);
+  gap: var(--gap-base);
+}
+.webDesign {
+  position: relative;
+  font-weight: 600;
+}
+.frameChild3 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.card1,
+.frameChild3,
+.icon {
+  position: absolute;
+}
+.card1 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-crimson);
+  width: 643px;
+  height: 20px;
+  z-index: 1;
+}
+.icon {
+  top: -3px;
+  right: 41px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29);
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  border: 0 solid var(--color-crimson);
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.aboutMe,
+.aboutMeInner,
+.frameParent,
+.webDesignParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.webDesignParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.aboutMe,
+.aboutMeInner,
+.frameParent {
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.aboutMe,
+.aboutMeInner {
+  box-sizing: border-box;
+}
+.aboutMeInner {
+  width: 700px;
+  flex-direction: column;
+  padding: var(--padding-159xl) 0 0;
+  min-width: 700px;
+}
+.aboutMe {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-75xl-5) var(--padding-16xl);
+  gap: var(--gap-45xl);
+}
+.services1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.servicesContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.loremIpsumDolor1 {
+  margin: 0;
+}
+.loremIpsumDolorContainer1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--b1-size);
+  letter-spacing: 0.04em;
+  line-height: 137%;
+  text-align: center;
+}
+.frameGroup,
+.servicesInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1164px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.servicesInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.uiuxDesignChild {
+  width: 327px;
+  height: 350px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavenderblush);
+  display: none;
+  max-width: 100%;
+}
+.a589UserWebDesignSecur {
+  width: 96.1px;
+  height: 96.1px;
+  position: relative;
+  z-index: 1;
+}
+.uiuxDesign1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.loremIpsumDolor2 {
+  align-self: stretch;
+  height: 85px;
+  position: relative;
+  font-size: var(--b2-size);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.uiuxDesignGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.appDesignChild,
+.uiuxDesign {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavenderblush);
+  max-width: 100%;
+}
+.uiuxDesign {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-33xl) var(--padding-mid) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl-9);
+  min-width: 301px;
+}
+.appDesignChild {
+  width: 327px;
+  height: 350px;
+  position: relative;
+  display: none;
+}
+.a579MobileCodingDevelopm {
+  width: 96.3px;
+  height: 95.6px;
+  position: relative;
+  z-index: 1;
+}
+.appDesign2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.loremIpsumDolor3 {
+  align-self: stretch;
+  height: 85px;
+  position: relative;
+  font-size: var(--b2-size);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.appDesignGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.appDesign1,
+.graphicDesignChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavenderblush);
+  max-width: 100%;
+}
+.appDesign1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-34xl) var(--padding-mid) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl-4);
+  min-width: 301px;
+}
+.graphicDesignChild {
+  width: 327px;
+  height: 350px;
+  position: relative;
+  display: none;
+}
+.a593ArtworkDesigningIllu {
+  width: 98.1px;
+  height: 92px;
+  position: relative;
+  z-index: 1;
+}
+.graphicDesign2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.loremIpsumDolor4 {
+  align-self: stretch;
+  height: 85px;
+  position: relative;
+  font-size: var(--b2-size);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.graphicDesignGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.graphicDesign1,
+.webDesignChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavenderblush);
+  max-width: 100%;
+}
+.graphicDesign1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-35xl) var(--padding-mid) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  min-width: 301px;
+}
+.webDesignChild {
+  width: 327px;
+  height: 350px;
+  position: relative;
+  display: none;
+}
+.a583AdvertBillboardBoard {
+  width: 91.3px;
+  height: 87.8px;
+  position: relative;
+  z-index: 1;
+}
+.webDesign2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.loremIpsumDolor5 {
+  align-self: stretch;
+  height: 85px;
+  position: relative;
+  font-size: var(--b2-size);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.webDesign1,
+.webDesignGroup {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.webDesignGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.webDesign1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavenderblush);
+  padding: var(--padding-37xl) var(--padding-mid) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-15xl-2);
+  min-width: 301px;
+}
+.services,
+.servicesWrapper,
+.uiuxDesignParent,
+.webDesign1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.uiuxDesignParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--color-black);
+}
+.services,
+.servicesWrapper {
+  box-sizing: border-box;
+}
+.services {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) 0 0;
+  gap: var(--gap-35xl);
+}
+.servicesWrapper {
+  width: 1400px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+  text-align: justify;
+  font-size: var(--h1-size);
+}
+.aboutMeParent,
+.landingPageDarkInner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutMeParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-lg-3);
+}
+.landingPageDarkInner {
+  width: 1725px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-45xl) var(--padding-101xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--b1-size);
+  color: var(--color-white);
+  font-family: var(--b3);
+}
+@media screen and (max-width: 1400px) {
+  .aboutMeInner {
+    flex: 1;
+  }
+  .aboutMe {
+    flex-wrap: wrap;
+  }
+  .landingPageDarkInner {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .aboutMeInner {
+    min-width: 100%;
+  }
+  .aboutMe {
+    padding-bottom: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+  .landingPageDarkInner {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .aboutMeChild {
+    min-width: 100%;
+  }
+  .aboutMe1 {
+    font-size: var(--font-size-25xl);
+  }
+  .aboutMeInner {
+    padding-top: var(--padding-97xl);
+    box-sizing: border-box;
+  }
+  .aboutMe {
+    gap: var(--gap-13xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .services1 {
+    font-size: var(--font-size-25xl);
+  }
+  .appDesign2,
+  .graphicDesign2,
+  .uiuxDesign1,
+  .webDesign2 {
+    font-size: var(--b1-size);
+  }
+  .services {
+    gap: var(--gap-8xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutMe1 {
+    font-size: var(--font-size-14xl);
+  }
+  .loremIpsumDolorContainer {
+    line-height: 26px;
+  }
+  .appDesign,
+  .graphicDesign,
+  .loremIpsumDolorContainer,
+  .uxDesign,
+  .webDesign {
+    font-size: var(--font-size-lgi);
+  }
+  .aboutMe {
+    gap: var(--gap-base);
+  }
+  .services1 {
+    font-size: var(--font-size-14xl);
+  }
+  .loremIpsumDolorContainer1 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .uiuxDesign1 {
+    font-size: var(--b3-size);
+  }
+  .loremIpsumDolor2 {
+    font-size: var(--font-size-base);
+  }
+  .appDesign2 {
+    font-size: var(--b3-size);
+  }
+  .loremIpsumDolor3 {
+    font-size: var(--font-size-base);
+  }
+  .graphicDesign2 {
+    font-size: var(--b3-size);
+  }
+  .loremIpsumDolor4 {
+    font-size: var(--font-size-base);
+  }
+  .graphicDesign1 {
+    gap: var(--gap-base);
+  }
+  .webDesign2 {
+    font-size: var(--b3-size);
+  }
+  .loremIpsumDolor5 {
+    font-size: var(--font-size-base);
+  }
+  .webDesign1 {
+    gap: var(--gap-mid);
+  }
+  .landingPageDarkInner {
+    padding-bottom: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}

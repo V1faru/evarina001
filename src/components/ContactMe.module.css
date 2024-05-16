@@ -1,0 +1,208 @@
+.contactContainerChild {
+  width: 1920px;
+  height: 493px;
+  position: relative;
+  background-color: var(--color-crimson);
+  display: none;
+  max-width: 100%;
+}
+.dot,
+.dot1,
+.dot2 {
+  height: 14px;
+  width: 41px;
+  position: relative;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-oldlace);
+  z-index: 1;
+}
+.dot1,
+.dot2 {
+  background-color: var(--color-lightcoral);
+}
+.dot2 {
+  background-color: var(--color-oldlace);
+}
+.contactContent,
+.contactDots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.contactDots {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.contactContent {
+  width: 1170px;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactMe1 {
+  margin: 0 !important;
+  position: absolute;
+  top: -62px;
+  left: 393px;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  margin: 0;
+}
+.loremIpsumDolorContainer {
+  flex: 1;
+  font-size: var(--b1-size);
+  letter-spacing: 0.04em;
+  line-height: 137%;
+  text-align: center;
+  display: inline-block;
+  z-index: 2;
+}
+.contactForm,
+.frameChild,
+.loremIpsumDolorContainer {
+  position: relative;
+  max-width: 100%;
+}
+.contactForm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  height: 75px;
+  width: 630px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.enterYourEmail {
+  position: relative;
+  letter-spacing: 0.02em;
+  z-index: 1;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-xl) var(--padding-base);
+  box-sizing: border-box;
+  min-width: 210px;
+  max-width: 100%;
+  z-index: 1;
+}
+.emailInputChild {
+  height: 75px;
+  width: 274px;
+  z-index: 1;
+}
+.emailInput,
+.emailInputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.emailInput {
+  width: 953px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+}
+.emailInputContainer {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--b1-size);
+  color: var(--color-black);
+}
+.contactContainer,
+.contactFormContainer,
+.contactMe {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactFormContainer {
+  width: 1170px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-38xl);
+}
+.contactContainer,
+.contactMe {
+  box-sizing: border-box;
+}
+.contactContainer {
+  flex: 1;
+  background-color: var(--color-crimson);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-10xs) var(--padding-xl) var(--padding-49xl);
+  gap: var(--gap-192xl);
+}
+.contactMe {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-36xl);
+  z-index: 5;
+  margin-top: -58px;
+  text-align: justify;
+  font-size: var(--h1-size);
+  color: var(--color-oldlace);
+  font-family: var(--b3);
+}
+@media screen and (max-width: 1400px) {
+  .contactContainer {
+    gap: var(--gap-86xl);
+  }
+}
+@media screen and (max-width: 825px) {
+  .contactMe1 {
+    font-size: var(--font-size-25xl);
+  }
+  .emailInput {
+    gap: var(--gap-5xl);
+  }
+  .contactFormContainer {
+    gap: var(--gap-9xl);
+  }
+  .contactContainer {
+    gap: var(--gap-34xl);
+    padding-top: var(--padding-59xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+  .contactMe {
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactMe1 {
+    font-size: var(--font-size-14xl);
+  }
+  .loremIpsumDolorContainer {
+    line-height: 26px;
+  }
+  .enterYourEmail,
+  .loremIpsumDolorContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .contactContainer {
+    gap: var(--gap-7xl);
+  }
+}

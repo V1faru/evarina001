@@ -1,0 +1,68 @@
+.uiuxDesignChild {
+  width: 327px;
+  height: 350px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavenderblush);
+  display: none;
+  max-width: 100%;
+}
+.a589UserWebDesignSecur {
+  width: 96.1px;
+  height: 96.1px;
+  position: relative;
+  z-index: 1;
+}
+.uiuxDesign1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  height: 85px;
+  position: relative;
+  font-size: var(--b2-size);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.cardDetails,
+.uiuxDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardDetails {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.uiuxDesign {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavenderblush);
+  padding: var(--padding-33xl) var(--padding-mid) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl-9);
+  min-width: 301px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--color-black);
+  font-family: var(--b3);
+}
+@media screen and (max-width: 825px) {
+  .uiuxDesign1 {
+    font-size: var(--b1-size);
+  }
+}
+@media screen and (max-width: 450px) {
+  .uiuxDesign1 {
+    font-size: var(--b3-size);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-base);
+  }
+}

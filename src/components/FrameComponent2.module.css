@@ -1,0 +1,353 @@
+.testimonialsChild {
+  width: 1920px;
+  height: 638px;
+  position: relative;
+  background-color: var(--color-gray);
+  display: none;
+  max-width: 100%;
+}
+.testimonials1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.testimonialsContainer {
+  width: 1136px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--b1-size);
+  letter-spacing: 0.04em;
+  line-height: 137%;
+  text-align: center;
+  z-index: 1;
+}
+.frameGroup {
+  width: 1164px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+}
+.testimonialsInner {
+  width: 1344px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-lg);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frameItem {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  border-radius: var(--br-12xs);
+  width: 13px;
+  height: 13px;
+  object-fit: contain;
+  z-index: 2;
+}
+.ellipseParent {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.frameDiv,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-161xl) 0 0;
+}
+.frameDiv {
+  flex: 1;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 188px;
+}
+.frameInner {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.polygonIcon {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  border-radius: var(--br-12xs);
+  width: 13px;
+  height: 13px;
+  object-fit: contain;
+  z-index: 2;
+}
+.ellipseGroup {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.frameContainer,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-161xl) 0 0;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-12xl-2);
+  font-size: var(--b3-size);
+}
+.frameChild1,
+.frameChild2,
+.rectangleDiv {
+  height: 14px;
+  width: 41px;
+  position: relative;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-oldlace);
+}
+.frameChild1,
+.frameChild2 {
+  background-color: var(--color-lightcoral);
+}
+.frameChild2 {
+  background-color: var(--color-oldlace);
+}
+.rectangleParent,
+.testimonialsInner1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleParent {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.testimonialsInner1 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.testimonials,
+.testimonialsWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.testimonials {
+  height: 650px;
+  width: 1404px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-38xl) var(--padding-mid) var(--padding-14xl);
+  gap: var(--gap-5xl);
+}
+.testimonialsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.contactMe1 {
+  margin: 0 !important;
+  position: absolute;
+  top: -62px;
+  left: 393px;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.loremIpsumDolor1 {
+  margin: 0;
+}
+.loremIpsumDolorContainer {
+  flex: 1;
+  position: relative;
+  font-size: var(--b1-size);
+  letter-spacing: 0.04em;
+  line-height: 137%;
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.contact {
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.enterYourEmail {
+  position: absolute;
+  top: 29px;
+  left: 20px;
+  letter-spacing: 0.02em;
+  z-index: 1;
+}
+.backgroundParent {
+  height: 75px;
+  flex: 1;
+  position: relative;
+  min-width: 409px;
+  max-width: 100%;
+}
+.emailInputChild {
+  height: 75px;
+  width: 274px;
+}
+.emailInput,
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.emailInput {
+  width: 953px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+}
+.input {
+  width: 1170px;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--b1-size);
+  color: var(--color-black);
+}
+.contactMe,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.contactMe {
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-104xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-38xl);
+  min-height: 548px;
+  z-index: 5;
+  margin-top: -14px;
+}
+.frameParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  text-align: justify;
+  font-size: var(--h1-size);
+  color: var(--color-oldlace);
+  font-family: var(--b3);
+}
+@media screen and (max-width: 1200px) {
+  .testimonials {
+    height: auto;
+  }
+}
+@media screen and (max-width: 825px) {
+  .testimonials1 {
+    font-size: var(--font-size-25xl);
+  }
+  .frameContainer {
+    gap: var(--gap-base);
+  }
+  .testimonials {
+    padding-top: var(--padding-18xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .contactMe1 {
+    font-size: var(--font-size-25xl);
+  }
+  .backgroundParent {
+    min-width: 100%;
+  }
+  .emailInput {
+    gap: var(--gap-5xl);
+  }
+  .contactMe {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .testimonials1 {
+    font-size: var(--font-size-14xl);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .contactMe1 {
+    font-size: var(--font-size-14xl);
+  }
+  .loremIpsumDolorContainer {
+    line-height: 26px;
+  }
+  .enterYourEmail,
+  .loremIpsumDolorContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .contactMe {
+    padding-top: var(--padding-104xl);
+    padding-bottom: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
